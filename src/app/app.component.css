@@ -1,3 +1,33 @@
 * [lang^=en] {
   color: green;
 }
+
+.margins{
+  margin-bottom: 20px;
+  border-bottom: 5px;
+  border-color: black;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+.jumboText{
+  font-weight: bold;
+  text-align: center;
+}
+.jumbo{
+  display: flex;
+  width: 700px;
+  margin: auto;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(173, 173, 173);
+  margin-bottom: 20px;
+}
+
+.topBorder{
+  border-top: 3px;
+  border-top-color: black;
+  border-top-style: solid;
+  padding-top: 20px;
+}
