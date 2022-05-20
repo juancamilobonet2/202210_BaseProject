@@ -1,0 +1,35 @@
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Collection</th>
+                <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let a of articulos">
+                  <td>
+                    <dd>{{a.id}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{a.name}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{a.collection}}</dd>
+                  </td>
+                  <td>
+                    <dd>{{a.price}}</dd>
+                  </td>
+                </tr>
+              </tbody>
+          </table>
+        <h3 class="centerTitle">Average price: {{avgPrice}}</h3>
+      </div>
+  </div>
+</div>
+
